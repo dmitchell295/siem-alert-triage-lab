@@ -1,0 +1,5 @@
+# Never commit Wazuh credentials or install archives
+wazuh-install-files.tar
+wazuh-passwords.txt
+credentials.env
+*.tar

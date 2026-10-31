@@ -1,0 +1,13 @@
+# /etc/netplan/50-cloud-init.yaml on wazuh-server
+# Cloud-init network config disabled via /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg
+network:
+  version: 2
+  ethernets:
+    enp0s3:
+      dhcp4: false
+      addresses: [10.0.50.5/24]
+      routes:
+        - to: default
+          via: 10.0.50.1
+      nameservers:
+        addresses: [10.0.50.1, 1.1.1.1]

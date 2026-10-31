@@ -58,4 +58,4 @@ Apply it with `sudo systemctl restart wazuh-manager`, then confirm the alert sto
 
 ## Evidence
 
-- `screenshots/03-92205-details.png`
+![File creation details for rule 92205](../screenshots/03-92205-details.png)

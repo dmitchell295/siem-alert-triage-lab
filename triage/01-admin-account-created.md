@@ -40,9 +40,9 @@ Within four seconds, a process created a new local account called `T1136.001_Adm
 
 **Context checked**
 
-- [ ] Change ticket or approved request for a new admin account: none (lab)
-- [ ] Is `T1136.001_Admin` a naming convention used by IT? No
-- [ ] Logons by the new account since creation: [check event 4624 for SID -1002]
+- [x] Change ticket or approved request for a new admin account: none (lab)
+- [x] Is `T1136.001_Admin` a naming convention used by IT? No
+- [x] Logons by the new account since creation: none found
 
 ## Verdict
 
@@ -59,6 +59,8 @@ Within four seconds, a process created a new local account called `T1136.001_Adm
 
 ## Evidence
 
-- `screenshots/01-alert-list.png`: the alert sequence in Threat Hunting
-- `screenshots/01-92040-details.png`: process details
-- `screenshots/01-60154-details.png`: group membership change
+![Alert sequence showing account creation and admin group change](../screenshots/01-alert-list.png)
+
+![Process details for rule 92040](../screenshots/01-92040-details.png)
+
+![Administrators group change, rule 60154](../screenshots/01-60154-details.png)

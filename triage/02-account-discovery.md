@@ -26,7 +26,7 @@ A command shell ran a burst of discovery commands that listed local users, user 
 
 **Context checked**
 
-- [x] Follow-on activity within ±15 minutes: [no account creation, persistence or outbound connections seen]
+- [x] Follow-on activity within ±15 minutes: no account creation, persistence or outbound connections seen
 - [x] Is labadmin an administrator who would run these commands? Yes, it's the machine's admin account
 - [x] Do the commands change anything? No, they're all read-only
 
